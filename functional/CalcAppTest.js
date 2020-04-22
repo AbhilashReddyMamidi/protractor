@@ -47,7 +47,6 @@ describe("Validating the result grid of a Calculator App", function () {
         element.all(by.repeater("result in memory")).getText().then(function (recordsData) {
 
             var noOfRecords= recordsData.length;
-
             for (var i=0; i<noOfRecords; i++){
                 element(by.repeater("result in memory").row(i)).getText().then(function (record) {
 
