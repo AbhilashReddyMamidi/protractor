@@ -10,7 +10,7 @@ exports.config = {
 
   //seleniumAddress: 'http://localhost:4444/wd/hub',
 
-  specs: ['./functional/BankingAppTest.js'],
+  specs: ['./functional/CalcAppTest.js'],
 
   suites: {
     functional: ['./functional/*.js'],
@@ -23,5 +23,4 @@ exports.config = {
   jasmineNodeOpts: {
     defaultTimeoutInterval: 30000
   }
-
 };
