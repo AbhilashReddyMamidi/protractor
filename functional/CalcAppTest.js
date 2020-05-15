@@ -1,22 +1,29 @@
+var Objects = require("../testdata/Objects.json")
+var DataProvider= require('jasmine-data-provider')
+
 describe("Validating the result grid of a Calculator App", function () {
 
-    it("Performing Calc operations",function () {
+    function dataProviders(){
+        return [
+            {calculationData1:Objects.testData.calculationData1, calculationData2: Objects.testData.calculationData2},
+            {calculationData1:Objects.testData.calculationData3, calculationData2:Objects.testData.calculationData4},
+            {calculationData1:Objects.testData.calculationData4, calculationData2:Objects.testData.calculationData1}
+        ];
+    }
 
-        browser.get("http://www.way2automation.com/angularjs-protractor/calc/");
-        browser.manage().window().maximize();
+    DataProvider(dataProviders, function(data) {
 
-        element(by.model("first")).sendKeys("5");
-        element(by.model("second")).sendKeys("5");
-        element(by.id("gobutton")).click();
+        it("Performing Calc operations",function () {
 
-        element(by.model("first")).sendKeys("19");
-        element(by.model("second")).sendKeys("19");
-        element(by.id("gobutton")).click();
+            browser.get(Objects.appUrl);
+            browser.manage().window().maximize();
 
-        element(by.model("first")).sendKeys("20");
-        element(by.model("second")).sendKeys("20");
-        element(by.id("gobutton")).click();
-    });
+            element(by.model(Objects.locators.calculatorPage.firstTextBox)).sendKeys(data.calculationData1);
+            element(by.model(Objects.locators.calculatorPage.secondTextBox)).sendKeys(data.calculationData2);
+            element(by.id(Objects.locators.calculatorPage.goButton)).click();
+        });
+    })
+
 
     it("Printing the first Row data", function () {
 

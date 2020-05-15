@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1587716206458' stop='1587716213566'>
+    <name>Validating Title's of a page</name>
+    <title>Validating Title's of a page</title>
+    <test-cases>
+        <test-case start='1587716206459' status='passed' stop='1587716211363'>
+            <name>Validating Banking App title in a Happy path</name>
+            <title>Validating Banking App title in a Happy path</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='64602049-d064-47b9-b9d8-500eaa8bf0ff-attachment.png' type='image/png' size='14229'/>
+            </attachments>
+        </test-case>
+        <test-case start='1587716211363' status='failed' stop='1587716213563'>
+            <name>Validating Banking App title in a Non-Happy path</name>
+            <title>Validating Banking App title in a Non-Happy path</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f11b390d-91c4-48bf-82db-c3e851205fe0-attachment.png' type='image/png' size='15945'/>
+            </attachments>
+            <failure>
+                <message>Expected 'Protractor practice website - Banking App' to equal 'Protractor123 practice website - Banking App'.</message>
+                <stack-trace>Error: Failed expectation
+                    at C:\Users\Abhi\WebstormProjects\ProtractorTests\regression\ValidateTitlesTest.js:24:20
+                    at ManagedPromise.invokeCallback_ (C:\Users\Abhi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\Abhi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\Abhi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\Abhi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25
+                    at C:\Users\Abhi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

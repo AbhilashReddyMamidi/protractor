@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1587965558595' stop='1587965573484'>
+    <name>Validating the result grid of a Calculator App</name>
+    <title>Validating the result grid of a Calculator App</title>
+    <test-cases>
+        <test-case start='1587965558596' status='passed' stop='1587965565259'>
+            <name>Performing Calc operations</name>
+            <title>Performing Calc operations</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='38bb133f-06e6-4879-bf37-590f4fbe9c57-attachment.png' type='image/png' size='15212'/>
+            </attachments>
+        </test-case>
+        <test-case start='1587965565259' status='passed' stop='1587965567270'>
+            <name>Performing Calc operations</name>
+            <title>Performing Calc operations</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='511e2f9b-489a-4da4-81c0-2bcffd8c36b1-attachment.png' type='image/png' size='15353'/>
+            </attachments>
+        </test-case>
+        <test-case start='1587965567270' status='passed' stop='1587965570257'>
+            <name>Performing Calc operations</name>
+            <title>Performing Calc operations</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='74fb3922-076b-4f03-a3d4-31994d09d825-attachment.png' type='image/png' size='15244'/>
+            </attachments>
+        </test-case>
+        <test-case start='1587965570257' status='passed' stop='1587965572155'>
+            <name>Printing the first Row data</name>
+            <title>Printing the first Row data</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0b5d5e9c-47b7-4803-ad0d-b78453913e03-attachment.png' type='image/png' size='17356'/>
+            </attachments>
+        </test-case>
+        <test-case start='1587965572155' status='passed' stop='1587965572565'>
+            <name>Printing the first Column data</name>
+            <title>Printing the first Column data</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e2de37bc-d863-4cc6-b94f-647de3cd659c-attachment.png' type='image/png' size='17356'/>
+            </attachments>
+        </test-case>
+        <test-case start='1587965572565' status='passed' stop='1587965573035'>
+            <name>Printing all the records</name>
+            <title>Printing all the records</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e9dde856-ba8a-4b57-b06c-0bf3f969f20c-attachment.png' type='image/png' size='17356'/>
+            </attachments>
+        </test-case>
+        <test-case start='1587965573035' status='passed' stop='1587965573484'>
+            <name>Printing all the records in separate line</name>
+            <title>Printing all the records in separate line</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3bcbcaaf-4042-4284-8bfe-6bc892dbab8d-attachment.png' type='image/png' size='17356'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

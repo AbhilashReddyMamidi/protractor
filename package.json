@@ -4,20 +4,26 @@
 	"description": "ProtractorTest",
 	"main": "app.js",
 	"author": {
-		"name": "Raman",
+		"name": "Abhilash",
 		"email": ""
 	},
 	"devDependencies": {
+		"allure-commandline": "^2.13.0",
 		"astrolabe": "0.3.6",
-		"jasmine-reporters": "2.0.0",
-		"protractor": "~2.2.0",
-		"winston": "1.0.1",
-		"selenium-webdriver": "^2.47.1",
 		"exceljs": "^1.6.0",
-		"jasmine-allure-reporter": "^0.2.3"
+		"jasmine-allure-reporter": "^1.0.2",
+		"jasmine-reporters": "2.0.0",
+		"protractor": "^5.4.4",
+		"selenium-webdriver": "^3.6.0",
+		"winston": "^1.1.2"
 	},
 	"dependencies": {
+		"fs": "0.0.1-security",
+		"jasmine-data-provider": "^2.2.0",
+		"nodemailer": "^6.4.6",
 		"path": "^0.12.7",
-		"promise": "^7.0.4"
+		"promise": "^7.0.4",
+		"winston-daily-rotate-file": "^4.4.2",
+		"xlsx": "^0.15.6"
 	}
 }

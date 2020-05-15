@@ -1,0 +1,19 @@
+{
+  "appUrl": "http://www.way2automation.com/angularjs-protractor/calc/",
+
+  "locators": {
+    "calculatorPage": {
+      "firstTextBox": "first",
+      "secondTextBox": "second",
+      "goButton": "gobutton"
+    }
+  },
+
+  "testData": {
+    "calculationData1": "5",
+    "calculationData2": "10",
+    "calculationData3": "15",
+    "calculationData4": "20"
+  }
+
+}
