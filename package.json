@@ -10,7 +10,7 @@
 	"devDependencies": {
 		"astrolabe": "0.3.6",
 		"jasmine-reporters": "2.0.0",
-		"protractor": "~2.2.0",
+		"protractor": "~7.0.0",
 		"winston": "1.0.1",
 		"selenium-webdriver": "^2.47.1",
 		"exceljs": "^1.6.0",
